@@ -1,0 +1,46 @@
+{
+  "name": "@skan-io/applify-prompt-plugin",
+  "private": false,
+  "version": "1.0.0",
+  "description": "An applify plugin to prompt users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skan-io/applify-prompt-plugin.git"
+  },
+  "keywords": [
+    "Prompt",
+    "Applify",
+    "Plugin"
+  ],
+  "author": "Nick Manks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skan-io/applify-prompt-plugin/issues"
+  },
+  "homepage": "https://github.com/skan-io/applify-prompt-plugin#readme",
+  "devDependencies": {
+    "@skan-io/babel-config-nodejs": "^1.0.0",
+    "@skan-io/eslint-config-base": "^1.0.2",
+    "@skan-io/jest-config-base": "^1.0.0",
+    "@skan-io/release-config": "^1.0.0",
+    "@skan-io/remark-config": "^1.0.1",
+    "cz-conventional-changelog": "^2.1.0",
+    "npx-run": "^2.1.2",
+    "rimraf": "^2.6.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.2"
+  }
+}
