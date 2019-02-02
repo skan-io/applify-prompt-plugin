@@ -1,7 +1,7 @@
 {
   "name": "@skan-io/applify-prompt-plugin",
   "private": false,
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "An applify plugin to prompt users",
   "main": "./index.js",
   "engines": {
